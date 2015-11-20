@@ -82,7 +82,7 @@ We must get `J(theta)` convex to find the global minimum.
 
 ```
 => { 
-    -log(h_theta(x)) if y = 1,
+    -log(h_theta) if y = 1,
     -log(1-h_theta) if y = 0
     }
 ```
@@ -108,10 +108,10 @@ and `Cost (h_theta(x), y)` =>
 }
 ```
 
-Simplify => `-y*log(h_theta(x))+ -(1-y)*(1-h_theta)`
+Simplify => `-y*log(h_theta)+ -(1-y)*(1-h_theta)`
 
 ```
-J(theta) = (1/m)*sum((-y*log(h_theta(x))+ -(1-y)*(1-h_theta)))
+J(theta) = (1/m)*sum((-y*log(h_theta)+ -(1-y)*(1-h_theta)))
 ```
 
 Then how to min(J(theta))
