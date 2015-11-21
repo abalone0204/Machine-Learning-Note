@@ -29,7 +29,7 @@ Sigmoid(logistic) activation function
 
 Θj's dimension = s_(j+1) * (s_j +1)
 
-![Image of neuron_network_modal]('../img/neuron_network_modal.png')
+![Image of neuron_network_modal]('https://raw.githubusercontent.com/abalone0204/Machine-Learning-Note/master/image/neuron_network_modal.png')
 
 
 # Model Representation II
@@ -45,4 +45,5 @@ Sigmoid(logistic) activation function
 
 - OR
 
-## 2.
+## 2. x1 XNOR x2
+
